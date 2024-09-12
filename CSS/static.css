@@ -36,10 +36,9 @@ body{
     max-width: 50px; 
 }
 
-/* .footer ul li{
-    display: inline-flex;
-    margin-left: 10%;
-} */
+.table th, .table td ,.table tr{
+    border: 1px solid black 
+}
 
 @media (max-width: 576px) { 
     .img {

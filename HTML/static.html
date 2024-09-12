@@ -12,6 +12,7 @@
 
 </head>
 <body>
+  
     <div><nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <img class="img" src="../Images/images.jpeg" alt="">
@@ -47,155 +48,13 @@
      
       <div class="align p-2">
 
-        <form class="d-flex">
-          <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex" id="search-form">
+          <input id="search-input" class="me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-primary bg-primary text-white" type="submit">Search</button>
-        </form>
-        <div class="table-responsive">
-          <table class="table table-bordered mt-2">
-           <thead class="text-center">
-            <tr>
-            <th>Sl.No</th>
-            <th>Student's Name</th>
-            <th>Fathers Name</th>
-            <th>DOB</th>
-            <th>Gender</th>
-            <th>City</th>
-            <th>Department</th>
-            <th>Academic Year</th>
-            <th>Scholarship</th>
-            <th>Action</th>  
-            </tr>
-           </thead>
-           <tbody>
-            <tr class="text-center">
-              <th>1</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/sunil.jpeg" alt=""><span class="ms-2">Sunil</span></th>
-              <th>Kumar</th>
-              <th>28-09-2001</th>
-              <th>Male</th>
-              <th>Chennai</th>
-              <th>Mech</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>2</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/anitha.jpeg" alt=""><span class="ms-2">Anitha</span></th>
-              <th>Vasanth</th>
-              <th>28-09-2003</th>
-              <th>Female</th>
-              <th>Coimbatore</th>
-              <th>CSE</th>
-              <th>2023-2026</th>
-              <th>No</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">View</button>
-              </th>
-            </tr>
-            
-            <tr class="text-center">
-              <th>3</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/aravind.jpeg" alt="">
-              <span class="ms-2">Aravind</span></th>
-              <th>Rajkumar</th>
-              <th>28-09-2001</th>
-              <th>Male</th>
-              <th>Madurai</th>
-              <th>EEE</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>4</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/saravanan.jpeg" alt="">
-              <span class="ms-2">Saravanan</span></th>
-              <th>Senthil</th>
-              <th>28-12-2001</th>
-              <th>Male</th>
-              <th>Chennai</th>
-              <th>ECE</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>5</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/Rubaa.jpeg" alt="">
-              <span class="ms-2">Rubaa</span></th>
-              <th>Ravichandiran</th>
-              <th>12-11-2001</th>
-              <th>Female</th>
-              <th>Trichy</th>
-              <th>EEE</th>
-              <th>2021-2024</th>
-              <th>No</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal4">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>6</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/bharathi.jpeg" alt="">
-              <span class="ms-2">Bharathi</span></th>
-              <th>Rajendiran</th>
-              <th>09-09-2001</th>
-              <th>Female</th>
-              <th>Madurai</th>
-              <th>CSE</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal5">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>7</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/raghavan.jpeg" alt="">
-              <span class="ms-2">Raghavan</span></th>
-              <th>Rajesh</th>
-              <th>12-05-2001</th>
-              <th>Male</th>
-              <th>Madurai</th>
-              <th>EEE</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal6">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>8</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/meera.jpeg" alt="">
-              <span class="ms-2">Meera</span></th>
-              <th>Kumar</th>
-              <th>15-09-2001</th>
-              <th>Female</th>
-              <th>Trichy</th>
-              <th>EEE</th>
-              <th>2021-2024</th>
-              <th>No</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal7">View</button></th>
-            </tr>
-  
-            <tr class="text-center">
-              <th>9</th>
-              <th class="text-start"><img class="img1 rounded-circle border" src="../Images/ashok.jpeg" alt="">
-              <span class="ms-2">Ashok</span></th>
-              <th>Selvan</th>
-              <th>28-09-2001</th>
-              <th>Male</th>
-              <th>Chennai</th>
-              <th>EEE</th>
-              <th>2021-2024</th>
-              <th>Yes</th>
-              <th><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal8">View</button></th>
-            </tr>
-           </tbody>
-          </table>
-        </div>
-
+      </form>
+      <div id="app"></div>
+      
+    
         <ul class="pagination">
           <li class="page-item"><a class="page-link text-dark" href="#">Previous</a></li>
           <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
@@ -620,7 +479,7 @@
       
     </div>
 
-   
+    <script src="./fetch.js"></script>
 </body>
 </html>
 
