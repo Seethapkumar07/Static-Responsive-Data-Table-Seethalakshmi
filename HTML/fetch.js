@@ -27,7 +27,7 @@ async function Logic() {
     });
 }
 
-function renderTable(data) { 
+function renderTable(data)  { 
     const html = `
         <div class="table-responsive">
             <table class="table table-bordered mt-2">
